@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div className="bg-black mt-4  bottom-2 sticky top-10">
+    <div className="bg-black mt-4  bottom-2 ">
       <h1 className="text-white text-xl p-4">
         <span>StartGlobal</span> - One platform for your business back office.
       </h1>
