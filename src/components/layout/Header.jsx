@@ -7,13 +7,13 @@ const Header = () => {
       <div className="user border p-1 rounded-full ">
         <RiUserLine />
       </div>
-      <Link className="text-sm font-semibold" to={"/about"}>
+      <Link className="text-sm font-semibold hover:underline transition-all ease-in duration-300" to={"/about"}>
         About
       </Link>
-      <Link className="text-sm font-semibold" to={"/work"}>
-        Work
-      </Link>
-      <Link className="text-sm font-semibold lg:mr-4" to={"/contact"}>
+      <Link className="text-sm font-semibold transition duration-500 hover:underline" to="/work">
+      Work
+    </Link>
+      <Link className="text-sm font-semibold lg:mr-4 hover:underline transition-all ease-in duration-300" to={"/contact"}>
         Contact
       </Link>
     </div>
