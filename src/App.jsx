@@ -1,11 +1,15 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./components/home/Home";
+
 import Header from "./components/layout/Header";
-import { About } from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Work from "./components/pages/Work";
+
+
+
 import Footer from "./components/layout/Footer";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import  Contact  from "./pages/Contact";
+import  Work  from "./pages/Work";
 
 function App() {
   return (
