@@ -3,7 +3,9 @@
   font-family: "DM Sans", sans-serif;
   /* background-color: blueviolet; */
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
   background-color: rgb(102, 102, 196);
 }

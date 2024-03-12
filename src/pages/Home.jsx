@@ -7,6 +7,7 @@ import { FaReact } from "react-icons/fa";
 import { FaSass } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import ProjectCard from "../components/projects/ProjectCard";
 import { Link } from "react-router-dom";
 
@@ -63,7 +64,7 @@ export const Home = () => {
         <h1 className=" skill text-xl mb-4 underline lg:text-4xl text-black p-4 font-semibold ">
           Skills
         </h1>
-        <div className="p-1 flex flex-col h-32  flex-wrap lg:h-64 ">
+        <div className="p-1 flex justify-center ">
           {" "}
           <div className="flex gap-2 text-xs m-3 text-white items-center lg:text-xl ">
             {" "}
@@ -90,6 +91,10 @@ export const Home = () => {
           <div className="flex gap-2 text-xs m-3  text-white items-center lg:text-xl">
             {" "}
             <SiNextdotjs className="text-white" /> Next js{" "}
+          </div>
+          <div className="flex gap-2 text-xs m-3  text-white items-center lg:text-xl">
+            {" "}
+            <SiTailwindcss className=" text-sky-400" /> Tailwind CSS{" "}
           </div>
         </div>
       </div>
